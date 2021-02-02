@@ -1,0 +1,17 @@
+.logo{position: fixed; left: 0; top: 0; width: 160px; height: 55px;z-index: 103;}
+.top-panel{position: fixed; left: 160px; top: 0; right: 0; height: 55px; z-index: 102;}
+.menu-min{position: fixed; top: 55px; bottom: 0; width: 190px; overflow: hidden; transition: 500ms;}
+.page-content{ padding-top: 60px; padding-right: 5px; padding-bottom: 5px; overflow: hidden; z-index: 101;transition: 500ms;}
+.report-nav{position: fixed; left: 160px; top: 0; right: 0; height: 55px; z-index: 102;}
+.user-display{position: absolute; right: 10px; top: 15px;}
+.user-details{position: absolute; right: 6px; top: 58px;}
+@media screen and (max-width: 991px){
+    .menu-min{width:60px;}
+    .page-content{padding-left: 63px;}
+    .nav-detail{display: none;}
+}
+@media screen and (min-width: 992px){
+    .menu-min{width:160px;}
+    .page-content{padding-left: 165px;}
+    .nav-detail{display: inline-block;}
+}

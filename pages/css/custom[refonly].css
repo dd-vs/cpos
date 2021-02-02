@@ -1,0 +1,199 @@
+/*!
+ * AUTHOR:DURGADAS
+ */
+
+
+	
+html { height:100%; }
+	
+body { 
+	min-height:100%;
+	display: flex;
+	flex-direction: column;
+	}
+	
+.content { flex:1;}	
+
+ #title-bar{
+	background-repeat: repeat-x;
+    background-image: url("../image/headerbackground.png");
+    width:100%;
+    height:101px;
+    }
+    
+.nopadding{
+	padding:0!important;
+	}
+	
+.l-padding-10 {
+	padding-left: 10px;
+	}
+	
+.noborder{
+	border:0px!important;
+	}
+	
+.nomargin{
+	margin:0px!important;
+	}
+ hr{
+ border-top:1px solid #D2D2D2
+ }
+	
+.spacer{
+	height:10px;
+	
+	}
+	
+.savebutton{
+	margin-left:20px;
+	margin-right:20px;
+	min-width:100px;
+	}
+	
+.table-item{
+	margin:auto;
+	width:70%;
+	}
+	
+.table-item th{
+	text-align:center;
+	background-color:#AA5F29;
+	color:#F2F5FB;
+	}
+	
+.table-responsive{
+	text-align:center;
+	margin-bottom:50px;
+	margin-top:50px;
+	}
+	
+.mobile-search{
+	border:0;
+	padding-top:0px;
+	margin-left:-20px;
+	}
+	
+.navbar-nav li{
+	font-weight: 600;
+	}
+.footer{
+		position:absolute;
+		bottom:0;
+		width:100%
+		}
+		
+.panel-heading {
+    padding: 5px 25px;
+}
+
+.panel-footer {
+	padding: 1px 15px;
+	color: #A0A0A0;
+}
+
+.profile-img {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 10px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+.strikethrough{
+			text-decoration:line-through;
+			color:#BF1319;
+			}
+.strikethrough span{
+			display:none;
+			}
+			
+.strikethrough.del{
+	display:inline !important;
+	}
+
+.del{
+	display:none;
+	}
+	
+		
+footer{
+	background-color:#D28C5A;
+	height:40px;
+	width:100%;
+	color:#FFFFFF;
+	padding-right:30px;
+	padding-top:10px;
+	text-align:right;
+	}
+
+a {
+	text-decoration:none;
+	}
+	
+	
+a:hover{
+	text-decoration:none;
+	}
+
+.pointer{
+	cursor: pointer;
+}
+.redhover:hover{
+	background-color: darkred;
+}
+.greenhover:hover{
+	background-color: darkgreen;
+}
+.bluehover:hover{
+	background-color: darkblue;
+}
+.footer_index {
+	 position:absolute;
+	 bottom:0px;
+	 width:100%;
+ }
+
+
+.modal-dialog {
+	width: 100% !important;
+	height: 100% !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.modal-content {
+	height: auto !important;
+	min-height: 100% !important;
+	border-radius: 0 !important;
+}
+
+
+.tbl-seprator td{
+	background-color:#AA5F29;
+	}
+
+/***** button styling *************/
+.order-action{
+	min-width	:		150px;
+	min-height	:		80px;
+	border-radius:		0px;
+	border			:	none;
+	background-color:	#00688B;
+	background-image:	none;
+	}
+
+
+
+/******* bootstrap override ********/	
+.btn{
+	border-radius:0px;
+	}
+	
+.form-control {
+	border-radius:0px!important;
+	}
+.alert {
+	border-radius:0px!important;
+	}

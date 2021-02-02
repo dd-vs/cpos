@@ -1,0 +1,11 @@
+[08-Jun-2018 19:26:17 Asia/Kolkata] PHP Notice:  Undefined variable: hsnno in /home/techc1wl/public_html/sites/cposonline.com/demo/update/productupdate.php on line 133
+[08-Jun-2018 19:28:33 Asia/Kolkata] PHP Notice:  Undefined variable: cin in /home/techc1wl/public_html/sites/cposonline.com/demo/update/customerupdate.php on line 14
+[14-Feb-2020 18:00:38 Asia/Kolkata] PHP Notice:  Undefined variable: cin in /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/customerupdate.php on line 14
+[14-Feb-2020 18:00:44 Asia/Kolkata] PHP Notice:  Undefined variable: cin in /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/customerupdate.php on line 14
+[22-Feb-2020 13:01:44 Asia/Kolkata] PHP Notice:  Undefined variable: cin in /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/customerupdate.php on line 14
+[15-Mar-2020 13:19:04 Asia/Kolkata] PHP Notice:  Undefined variable: cin in /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/customerupdate.php on line 14
+[15-Mar-2020 13:20:43 Asia/Kolkata] PHP Notice:  Undefined variable: cin in /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/customerupdate.php on line 14
+[10-May-2020 09:34:48 Asia/Kolkata] PHP Notice:  Undefined variable: cin in /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/customerupdate.php on line 14
+[10-May-2020 09:34:48 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/customerupdate.php:14) in /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/customerupdate.php on line 32
+[05-Jun-2020 14:17:58 Asia/Kolkata] PHP Notice:  Undefined variable: hsnno in /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/productupdate.php on line 133
+[05-Jun-2020 14:17:58 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/productupdate.php:133) in /home/techc1wl/public_html/sites/subdomain/cposonline.com/ms/update/productupdate.php on line 138
