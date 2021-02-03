@@ -126,8 +126,8 @@ var picker = new Pikaday(
         field: document.getElementById('fdate'),
         firstDay: 1,
         minDate: new Date(2016,01,01),
-        maxDate: new Date(2020, 12, 31),
-        yearRange: [2016,2020],
+        maxDate: new Date(2030, 12, 31),
+        yearRange: [2016,2030],
         format: 'DD/MM/YYYY',
     });
     var picker = new Pikaday(
@@ -136,8 +136,8 @@ var picker = new Pikaday(
         field: document.getElementById('todate'),
         firstDay: 1,
         minDate: new Date(2016,01,01),
-        maxDate: new Date(2020, 12, 31),
-        yearRange: [2016,2020],
+        maxDate: new Date(2030, 12, 31),
+        yearRange: [2016,2030],
         format: 'DD/MM/YYYY',
     });
     document.getElementById('fdate').value=moment(new Date()).format('DD/MM/YYYY');
