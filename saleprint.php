@@ -74,7 +74,7 @@ navbar_user(); ?>
                                         <input type="number"   class="form-control  -txt"  id="retail" value="<?php  echo isset($retail['inv_no']) ? $retail['inv_no']:'1';?>" onchange="changeid();" >
                                         <input type="number"   class="form-control  -txt" id="whole" style="display:none" value="<?php  echo isset($rwhole['inv_no']) ? $rwhole['inv_no']:'1';?>" onchange="changeid();">
                                         <span class="input-group-addon">
-                                         <span><i class="fa fa-play" id="btnsaleedit" style="" aria-hidden="true"></i></span>
+                                         <span><i class="fa fa-play" id="btnsaleedit"  aria-hidden="true"></i></span>
                                         </span>
                                     </div>
                                     <div id="invNoPrint" class="no-screen"></div>
@@ -1471,7 +1471,7 @@ document.getElementById('Adm_txtqty').value='';
                 }
                 
                   
-    <!------  PDF Print -------------->
+    // <!------  PDF Print -------------->
       function printInv(){
                    
                      function parseTableHead(tabId) {
@@ -1551,13 +1551,13 @@ document.getElementById('Adm_txtqty').value='';
                       });
                 }     
     
-<!------  PDF Print -------------->
+// <!------  PDF Print -------------->
     $(function(){$("#invNoPrint").text($("#retail").val())
                  changeVal('AdmtxtDate','datePrint');
                 });
-    <!------  HTML Print -------------->
+    // <!------  HTML Print -------------->
   
-        <!------  HTML Print -------------->
+    //     <!------  HTML Print -------------->
      function PrintDiv(divId)
                 {   var kl = 2;
                     var printwindow = window.open('', 'PRINT', 'height=700px; width=1000px');
@@ -1626,7 +1626,7 @@ p{margin: 0; padding: 0;} \
                     printwindow.close();
                     return true;
                 }
-    <!------  HTML Print -------------->
+    // <!------  HTML Print -------------->
        
            
            
