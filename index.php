@@ -2,14 +2,14 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>CALCULUS INVENTORY</title>
+		<title>CPOS</title>
 		<link href="pages/css/bootstrap.css" rel="stylesheet">
         <link href="pages/images/ico/favicon.png" rel="shortcut icon" type="image/x-icon">
         <link href="pages/images/ico/ico-phone.png" rel="apple-touch-icon">
 	<style>
 				@font-face{
 					font-family:Roboto;
-					src:url(../fonts/Roboto-Regular.ttf);
+					src:url(./pages/fonts/Roboto-Regular.ttf);
 				}
 				*{font-family: Roboto,sans-serif;}
 				html { 
@@ -19,8 +19,7 @@
 					min-height:100%;
 					display: flex;
 					flex-direction: column;
-					background-color: #474747;
-					background-image: url(pages/images/bg.jpg);
+					background-color: #16697b;
 					background-position: 50% 50%;
 					background-size: cover;
 					background-repeat: no-repeat;
@@ -52,14 +51,11 @@
         .btn{border-radius: 0!important;}
         .customer-panel{background-color: rgba(255, 255, 255, 0.30); border: 1px solid rgba(255,255,255, 0.3); width: 25%; padding-top: 5px; padding-bottom: 5px; font-size: 20px; font-weight: bold; color: #fff; text-align: center;     border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; color: #005E8E;}
 		</style>
-         <div class="customer-panel">CPOS</div>
          <div class="container" style="margin-top:5%;" id="loggin">
 			<div class="row">
 				<div class="col-sm-6 col-md-4 col-md-offset-4">
 					<div class="panel panel-default">
-						<!--<div class="panel-heading">
-							<strong> Sign in to continue</strong>
-						</div> -->
+						
 						<div class="panel-body"  >
 							<form id="frmlogin" action="login.php" method="POST">
 								<fieldset>
