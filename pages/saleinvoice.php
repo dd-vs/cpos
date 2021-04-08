@@ -185,7 +185,9 @@ navbar_user(); ?>
                                     <button class="btn btn-primary" onclick="printInv().print(); pdfMake.createPdf(docSave).download('invoice'+$('#invNum').text()); clickfun();">Print</button>
                                 </div>
                                 <div class="col-md-4 -txt-">
-                                    <button type="submit" class="btn btn-primary" onclick="printInv().download('invoice'+$('#invNum').text()); clickfun1();">Save</button>
+                                    <button type="submit" class="btn btn-primary" onclick="printInv().print(); clickfun()">Save</button>
+									<!-- CODE TO SAVE INVOICE WITH INVOICE NUMBER -->
+									<!-- <button class="btn btn-primary" onclick="printInv().print(); pdfMake.createPdf(docSave).download('invoice'+$('#invNum').text()); clickfun();">Print</button> -->
                                 </div>
                             </div>
 							<div class="row">
