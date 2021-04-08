@@ -182,7 +182,7 @@ navbar_user(); ?>
                                     <span  id="credit"  class="b-type btn btn-primary btn-credit"  >Credit</span>
                                 </div>
                                 <div class="col-md-4 -txt-">
-                                    <button class="btn btn-primary" onclick="printInv().print(); pdfMake.createPdf(docSave).download('invoice'+$('#invNum').text()); clickfun();">Print</button>
+                                    <button class="btn btn-primary" onclick="printInv().print(); pdfMake.createPdf(docSave).download('invoice'+$('#invNum').text());">Print</button>
                                 </div>
                                 <div class="col-md-4 -txt-">
                                     <button type="submit" class="btn btn-primary" onclick="printInv().print(); clickfun()">Save</button>
@@ -1580,7 +1580,8 @@ document.getElementById('Adm_txtqty').value='';
 											columns: [ 
 												{width: 80, text: 'Date of issue',  fontSize: 10, bold: true, alignment: 'left'},
 												{width: 110, text: ': '+document.getElementById('datePrint').innerHTML, fontSize: 10, alignment: 'left'},
-												{width: 140, text: 'GSTIN : ', fontSize: 10, bold: true, alignment: 'left'},
+												{width: 50, text: 'GSTIN : ', fontSize: 10, bold: true, alignment: 'left'},
+												{width: 100, text: ''+document.getElementById('gst').innerHTML, fontSize: 10, alignment: 'left'},
 												{width: 55, text: 'State Code',   fontSize: 10, bold: true, alignment: 'left'},	
 												{width: 100, text: ': 32', fontSize: 10, alignment: 'left'}							
 											],
@@ -1623,7 +1624,7 @@ document.getElementById('Adm_txtqty').value='';
 																			{width: 80, text: '', fontSize: 10, bold: true},
 																			{text: '\n', italics: true},
 																			{width: 80, text: 'GSTIN', fontSize: 10, bold: true},																	
-																			{width: 150, text: ': ', fontSize: 10},
+																			{width: 150, text: ': '+document.getElementById('gst').innerHTML, fontSize: 10},
 																			{text: '\n', italics: true},
 																			{width: 80, text: 'State', fontSize: 10, bold: true},
 																			{width: 150, text: ': Kerala ', fontSize: 10}						
@@ -1691,7 +1692,7 @@ document.getElementById('Adm_txtqty').value='';
 																	{
 																		text:[
 																			{text:'Certified that the particulars given above the true and correct', fontSize: 7},
-																			{text: '\n', italics: true}, { text: 'FOR WINPRO', fontSize: 10,bold: true},
+																			{text: '\n', italics: true}, { text: 'FOR '+document.getElementById('brand-name').innerHTML, fontSize: 10,bold: true},
 																			{text: '\n', italics: true},{width: 80, text: '', fontSize: 10, bold: true},
 																			{text: '\n', italics: true},{ text: 'Authorised Signatory', fontSize: 10}
 																		]
