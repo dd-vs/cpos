@@ -64,7 +64,7 @@ $show_date = DateTime::createFromFormat('Y-m-d', $ssdate)->format('d/m/Y');
                                        
                                         <input type="hidden" id="invNum" name="invno" value="<?php  echo $wr['invoice_num'];?>">
                                           <span class="input-group-addon">
-                                         <span><i class="fa fa-play" id="btnsaleedit" style="" aria-hidden="true"></i></span>
+                                         <span><i class="fa fa-play" id="btnsaleedit"  aria-hidden="true"></i></span>
                                         </span>
 
                                     </div>
@@ -243,7 +243,7 @@ $show_date = DateTime::createFromFormat('Y-m-d', $ssdate)->format('d/m/Y');
 								</td>
 								<input type="hidden" id="grossamt" >
 															<td colspan="2" class="hasNotify">
-									<input type="number"  name="qty" id="Adm_txtqty" value="" class="form-control  -txt" onkeyup="sum()" tabindex="6" style="">
+									<input type="number"  name="qty" id="Adm_txtqty" value="" class="form-control  -txt" onkeyup="sum()" tabindex="6" >
 									<div id="notifyPop">  </div>
 								</td>
                                 <td colspan="2"><span id="qty_unit" style="display: inline-block" ></span></td>
@@ -1452,7 +1452,7 @@ document.getElementById('Adm_txtqty').value='';
                     alert(align); 
                 }
                          
-     <!------  PDF Print -------------->
+    //  <!------  PDF Print -------------->
     var docSave = {};
      function printInv(){
                    
@@ -1673,7 +1673,7 @@ document.getElementById('Adm_txtqty').value='';
                  return pdfMake.createPdf(docDefinition);
                 }     
     
-<!------  PDF Print -------------->
+// <!------  PDF Print -------------->
                
  
            
