@@ -21,7 +21,7 @@ navbar_report(1);
 <div class="report-container">
     <h2 class="margin-top-10">Purchase Invoice Report</h2>
     <div class="report-head">
-        <form class="" id="" action="purchase_report.php" method="post">
+        <form class="" id="" action="purchase_reporth.php" method="post">
             <div class="row">
                 <div class="col-md-2">
                     <div class="input-group">

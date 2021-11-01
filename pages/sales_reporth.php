@@ -22,7 +22,7 @@ navbar_report(0);
 	
     <h2 class="margin-top-10">Sales Invoice Report</h2>
     <div class="report-head">
-        <form class="" id="" action="sales_report.php" method="post">
+        <form class="" id="" action="sales_reporth.php" method="post">
             <div class="row">
                 <div class="col-md-2">
                     <div class="input-group">
